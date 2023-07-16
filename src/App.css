@@ -1,0 +1,293 @@
+.main_page {
+  width: 100vw;
+  height: 100vh;
+  background: url('./assets/images/Background.jpg')
+}
+
+.header {
+  width: auto;
+  height: 50px;
+  background-color: #ffffff;
+  font-size: small;
+}
+
+.navbar {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.navbar,
+.navbar aside {
+  display: flex;
+    align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.logo{
+  width: 100px;
+}
+
+select {
+  padding: 0 1rem;
+  border: none;
+}
+button{
+  font-size: smaller;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: none;
+  border-radius: 30px;
+}
+.join_btn{
+  padding: 10px 25px;
+  background: linear-gradient(to right, #0048ff, #0096ff);
+
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  height: auto;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.right_aside {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.right_aside h1 {
+  font-size: 2.6rem;
+  margin: 0;
+  font-weight: 400;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+h1 .orig_amount {
+  text-decoration: line-through 3px red;
+}
+
+h1 .disc_amount {
+  color: #0096FF
+}
+
+.content_details {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.content_details p {
+  display: flex;
+  font-size: x-large;
+  align-items: center;
+  color: #ffffff;
+  margin: 15px 0;
+}
+
+.content_details p img {
+  width: 45px;
+  margin-right: 40px;
+}
+
+.content_details p span {
+  color: #0048ff;
+}
+
+.left_aside {
+  width: 350px;
+  height: inherit;
+  padding: 20px 20px 10px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.top-nav{
+  display: flex;
+  justify-content: space-around;
+}
+.top{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.top label{
+  font-size: small;
+}
+.number{
+  background-color: #0096FF;
+  width: 30px;
+  height: 30px;
+}
+
+h4{
+  text-align: center;
+  font-weight: 500;
+  margin: 10px;
+}
+
+.payment_section{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.select-payment{
+  width: 100%;
+  padding: 2px 5px 2px 0;
+  border: 1px solid #bababa;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.checkbox{
+  color: #47ba68;
+  padding: 0 5px;
+}
+.uncheckbox{
+  color: #bababa;
+  padding: 0 5px;
+}
+.radio{
+  display: none;
+}
+.recommended{
+  display: inline-block;
+  position: absolute;
+  font-size: xx-small;
+  width: fit-content;
+  background-color: #47ba68;
+  width: 100px;
+  text-align: center;
+  color:#ffffff;
+  top: 0;
+  left: 50px;
+  border-radius: 0 0 2px 2px;
+}
+
+.select-payment:focus-within{
+  border: 1px solid #47ba68;
+  background-color: #d7eddd;
+}
+.select-payment.disabled{
+background-color: #e7e7e7;
+color: #bababa;
+border: 1px solid #bababa;
+position: relative;
+}
+.offerexpire{
+  display: inline-block;
+  position: absolute;
+  font-size: xx-small;
+  width: fit-content;
+  background-color: #f77171;
+  width: 100px;
+  text-align: center;
+  color:#ffffff;
+  top: 0;
+  left: 50px;
+  border-radius: 0 0 2px 2px;
+}
+
+.payment-select{
+  display: flex;
+  align-items: center;
+}
+
+hr{
+  width: 100%;
+  border-bottom: 1px solid #dadada;
+}
+.select-payment p{
+  display: inline;
+  font-size: smaller;
+}
+.optional_pay{
+  font-size: xx-small;
+}
+.sub-fee{
+  font-size: small;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.total{
+  font-size: large;
+  font-weight: 600;
+}
+
+.optional_pay .amount{
+  font-size: 12px;
+  font-weight: 500;
+}
+.optional_pay .permonth{
+  color: #d9d9d9
+}
+
+.limited{
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 5px;
+  border: 1px solid #f77171;
+  border-radius: 5px;
+  color: #f77171;
+  background: linear-gradient(135deg, rgba(222, 67, 19, 0.2) 0%, rgba(222, 67, 19, 0.2) 0.75%, rgba(222, 67, 19, 0.2) 2.92%, rgba(222, 68, 20, 0.2) 6.37%, rgba(223, 69, 21, 0.2) 10.97%, rgba(223, 72, 22, 0.2) 16.59%, rgba(224, 75, 24, 0.2) 23.1%, rgba(225, 80, 27, 0.2) 30.37%, rgba(227, 86, 31, 0.2) 38.27%, rgba(229, 94, 36, 0.2) 46.66%, rgba(231, 104, 43, 0.2) 55.41%, rgba(235, 117, 51, 0.2) 64.39%, rgba(238, 132, 60, 0.2) 73.47%, rgba(243, 149, 71, 0.2) 82.52%, rgba(248, 169, 84, 0.2) 91.41%, rgba(254, 193, 99, 0.2) 100%);
+  
+}
+.limited .sub-fee{
+  padding:0 10px;
+}
+
+.limited .sub{
+  display: flex;
+  align-items: center;
+  font-size: x-small;
+  padding: 0 10px;
+}
+.sub img{
+  width: 20px;
+}
+
+.btn-box{
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+}
+.btn-box button{
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  font-size: x-small;
+}
+.cancel-btn{
+  background-color: transparent;
+  border: 1px solid #ff0000;
+  color: #ff0000;
+}
+.pay-btn{
+  background-color: #47ba68;
+  border: 1px solid #47ba68;
+  color: #ffffff;
+}
+.razor{
+  align-self: start;
+  width: 100px;
+  margin-top: 10px;
+}
