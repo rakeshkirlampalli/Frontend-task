@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Frontend-task/static/css/main.8eadc782.css",
+    "main.js": "/Frontend-task/static/js/main.0d44ecac.js",
+    "static/js/787.d11497af.chunk.js": "/Frontend-task/static/js/787.d11497af.chunk.js",
+    "static/media/Background.jpg": "/Frontend-task/static/media/Background.da2558a37f6addaeb501.jpg",
+    "static/media/Razorpay.svg": "/Frontend-task/static/media/Razorpay.949295137420b0d75e17c67688b73b21.svg",
+    "static/media/Iconbook.svg": "/Frontend-task/static/media/Iconbook.d1bc988ddd425a1a0a85d7709cbc6a6e.svg",
+    "static/media/Icon.svg": "/Frontend-task/static/media/Icon.499ca3c988da74ea55aa67cc9ef63ca1.svg",
+    "static/media/Iconads.svg": "/Frontend-task/static/media/Iconads.f64bef610776584219a88423946b6232.svg",
+    "static/media/LOGO.svg": "/Frontend-task/static/media/LOGO.1b87649ebf28ae4d7887a094edb859b0.svg",
+    "static/media/Iconscholor.svg": "/Frontend-task/static/media/Iconscholor.ac26c6260d30f833f4d7a4d4202228de.svg",
+    "static/media/Iconclock1.svg": "/Frontend-task/static/media/Iconclock1.64f045f0a97cc66c3fb5a8de6866e885.svg",
+    "static/media/Search.svg": "/Frontend-task/static/media/Search.8719aceda330b39be871425d770f1ef6.svg",
+    "index.html": "/Frontend-task/index.html",
+    "static/media/IconClock.svg": "/Frontend-task/static/media/IconClock.8a5abe67cba80bf92768cdbd19225b1f.svg",
+    "main.8eadc782.css.map": "/Frontend-task/static/css/main.8eadc782.css.map",
+    "main.0d44ecac.js.map": "/Frontend-task/static/js/main.0d44ecac.js.map",
+    "787.d11497af.chunk.js.map": "/Frontend-task/static/js/787.d11497af.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8eadc782.css",
+    "static/js/main.0d44ecac.js"
+  ]
+}
